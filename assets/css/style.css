@@ -74,7 +74,6 @@ footer div {
     background-position: center;
     position: relative;
   }
-  /* Hero Style End */
 
 /* Hero Form Style Start */
 .hero-form {
@@ -88,7 +87,6 @@ footer div {
     right: 140px;
 }
 
-/* Update in code practicing */
 .hero-form h3 {
     font-size: 20px;
     margin: 0;   
@@ -107,3 +105,16 @@ footer div {
     width: 100%;
     margin-bottom: 15px;
 }
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+/* Hero Style End */
