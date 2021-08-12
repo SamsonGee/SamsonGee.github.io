@@ -14,5 +14,3 @@ https://SamsonGee.github.io/index.html
 Made with ❤️ by Samson Gee
 
 ### ©️2019 Run Buddy, Inc 
-
-# Testing
