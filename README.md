@@ -11,4 +11,6 @@ A website that offers fitness training services.
 https://SamsonGee.github.io/index.html
 
 ## Contribution
-Made with ❤️ by [your name]
+Made with ❤️ by Samson Gee
+
+### ©️2019 Run Buddy, Inc 
