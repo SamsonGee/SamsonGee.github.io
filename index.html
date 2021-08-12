@@ -41,14 +41,13 @@
     <div class="hero-form">
         <h3>Get Started Today</h3>
         <p>Fill out this form and one of our trainers will schedule a consult.</p>
-        <!-- Add form element -->
         <form>
             <label for="name">Enter full name:</label>
-            <input class="form-input" type="text" placeholder="Your Name" name="name" id="name" />
+            <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
             <label for="email">Enter email address:</label>
-            <input class="form-input" type="email" placeholder="Your Email Address" name="email" id="email" />
-            <label for="number">Enter a telephone number:</label>
-            <input class="form-input" type="tel" placeholder="Your Phone Number" name="number" id="number" />
+            <input type="text" placeholder="Email Address" name="email" id="email" class="form-input" />
+            <label for="phone">Enter a telephone number:</label>
+            <input type="text" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
             <p>
                 Have you worked out with a trainer before?
                 <input type="radio" name="trainer-confirm" id="trainer-yes" />
@@ -57,11 +56,13 @@
                 <label for="trainer-no">No</label>
             </p>
             <p>
-                I acknowledge that I am at least 18 years of age.
-                <input type="checkbox" name="age-confirm" id="checkbox" />
+                <label for="checkbox">
+                    I acknowledge that I am at least 18 years of age.
+                </label>
+                <input type="checkbox" name="checkpoint1" id="checkbox" />
             </p>
             <button type="submit">
-                🏃🏃 Get Running! 🏃🏃
+                Get running!
             </button>
         </form>
     </div>
@@ -71,7 +72,10 @@
 <section id="what-we-do" class="intro">
     <h2 class="section-title primary-border">What We Do</h2>
     <p>
-      butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
+      butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue
+      Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin
+      fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz
+      sustainable Intelligentsia umami deep v craft
     </p>
   </section>
   
@@ -80,7 +84,6 @@
     <h2 class="section-title secondary-border">What You Do</h2>
   
     <div>
-        <!-- insert this img element -->
         <img src="./assets/images/step-1.svg" alt="" />
         <h3>Step 1: <span>Fill Out the Form Above.</span></h3>
         <p>You're already here, so why not?</p>
@@ -107,46 +110,75 @@
 
 <!-- "meet the trainers" section -->
 <section id="your-trainers" class="trainers">
-    <h2 class="section-title primary-border">
-        Meet The Trainers
-    </h2>
-    <!-- First Trainer -->
+    <h2 class="section-title primary-border">Meet The Trainers</h2>
     <article class="trainer">
         <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
         <div class="trainer-bio text-left">
             <h3>Arron Stevens</h3>
             <h4>Speed / Strength</h4>
             <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ab quis natus unde aut. Ut labore sunt alias culpa, doloribus qui ad laboriosam, recusandae incidunt, accusantium voluptate nihil. Eum, libero?
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa
+              sed
+              itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
             </p>
         </div>
-    <!-- Second Trainer -->
+    </article>
+
+    <!-- Second trainer -->
     <article class="trainer">
         <div class="trainer-bio text-right">
             <h3>Joanna Gill</h3>
             <h4>Endurance</h4>
             <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ab quis natus unde aut. Ut labore sunt alias culpa, doloribus qui ad laboriosam, recusandae incidunt, accusantium voluptate nihil. Eum, libero?
-            </p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa
+                sed
+                itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+              </p>
         </div>
         <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill looking like she's here to kick ass and chew bubble gum, and her dentist said no more gum" />
     </article>
+
     <!-- Third Trainer -->
     <article class="trainer">
-            <img src="./assets/images/trainer-3.jpg" alt="Harry the headband Smith holding up two dumbells, and pushing it to the limit" />
-            <div class="trainer-bio text-left">
+        <img src="./assets/images/trainer-3.jpg"
+         alt="Harry Smith wearing a headband and lifting comically small pink weights" />
+        <div class="trainer-bio text-left">
                 <h3>Harry "The Head Band" Smith</h3>
                 <h4>Strength</h4>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim ad illum quas alias labore officia exercitationem iusto commodi nulla unde vel odio, eligendi beatae ipsa, omnis atque dolor reiciendis. Nulla.
-                </p>
-            </div>
-    </article>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa
+          sed
+          itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+        </p>
+    </div>
+ </article>
 </section>
 
 <!-- "reach out" section -->
-<section id="reach-out">
+<section>
     <h2>Reach Out</h2>
+    <div class="contact-info">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3440.048804485531!2d-97.69977968507648!3d30.4347183817421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644ce81dd5d0e13%3A0x896351958b9ee23c!2s3201%20Century%20Park%20Blvd%2C%20Austin%2C%20TX%2078727!5e0!3m2!1sen!2sus!4v1628751733889!5m2!1sen!2sus" 
+         width="400" 
+        height="400" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+        </iframe>
+        <h3>Run Buddy</h3>
+        <p>
+            Any questions or concerns before signing up?
+            <br />
+            Let us know and we'll be happy to talk to you!
+        </p>
+        <address>
+            55 Main Street <br/>
+            Some Town, Ca <br/>
+            12345<br />
+            P: 555.RUN.BUDZ (555.786.2839)<br/>
+            E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+        </address>
+    </div>
 </section>
 
 <!-- footer Tester-->
