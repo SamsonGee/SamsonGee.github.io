@@ -1,18 +1,16 @@
-# Run Buddy
+# Run Buddy 
 
 ## Purpose
-A website that offers fitness training services.
+A website that offers fitness training services. 
 
 ## Built With
 * HTML
 * CSS
 
 ## Website
-https://SamsonGee.github.io/index.html
+https://lernantino.github.io/run-buddy/
 
 ## Contribution
-Made with ❤️ by Samson Gee
+Made with ❤️ by [your name]
 
 ### ©️2019 Run Buddy, Inc 
-
-# Testing
