@@ -8,7 +8,7 @@ A website that offers fitness training services.
 * CSS
 
 ## Website
-https://SamsonGee.github.io/run-buddy/
+https://SamsonGee.github.io/index.html
 
 ## Contribution
 Made with ❤️ by [your name]
