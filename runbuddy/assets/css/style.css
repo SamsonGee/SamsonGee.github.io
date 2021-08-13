@@ -5,12 +5,12 @@
 }
 
 body {
-  /* more on this crazy alphanumerical value in a minute! */
   color: #39a6b2;
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* apply styles to <header> */
+/* navigation stylings for header  */
+
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
@@ -49,6 +49,10 @@ header nav ul li a {
   font-size: 1.55vw;
 }
 
+/* header nav styles end*/
+
+/* footer stylings */
+
 footer {
   background: #fce138;
   width: 100%;
@@ -73,6 +77,10 @@ footer a {
   color: #024e76;
 }
 
+/* end of footer stylings*/
+
+/* style all section tags */
+
 section {
   padding: 60px;
 }
@@ -86,7 +94,6 @@ section {
   justify-content: center;
   flex-wrap: wrap;
 }
-/* Hero Style End */
 
 .hero-cta {
   width: 35%;
@@ -142,6 +149,29 @@ section {
   font-size: 16px;
 }
 
+/* Hero Style End */
+
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+ /* section stye ends */
+
+ /* what we do styling */
+
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
@@ -150,6 +180,10 @@ section {
   margin: 0 auto;
   text-align: center;
 }
+
+/* what we do styling ending */
+
+/* what you do style starts*/
 
 .steps {
   background: #fce138;
@@ -203,23 +237,9 @@ section {
   color: #024e76;
 }
 
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  border-bottom: 3px solid;
-  padding-bottom: 20px;
-  text-align: center;
-  margin: 0 auto 35px auto;
-  width: 50%;
-}
+/* what you do style ending */
 
-.primary-border {
-  border-color: #fce138;
-}
-
-.secondary-border {
-  border-color: #39a6b2;
-}
+/*trainers styling start*/
 
 .trainers {
   width: 100%;
@@ -259,17 +279,7 @@ section {
   font-size: 17px;
 }
 
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.flex-row {
-  display: flex;
-}
+/* trainer styles end*/
 
 /* REACH OUT STYLES START */
 .contact {
@@ -337,3 +347,17 @@ section {
 }
 
 /* REACH OUT STYLES END */
+
+/*utilities*/
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.flex-row {
+  display: flex;
+}
